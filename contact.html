@@ -42,7 +42,7 @@
 				<nav class="navbar row">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
-								alt="atlanta web design logo" height="40" /></a>
+								alt="chouette logo" height="40" /></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 							data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -89,28 +89,27 @@
 					<div class="col-sm-6">
 						<form id="form_1" method="get" novalidate>
 							<div class="form-group">
-								<label>
-									Nom
-								</label>
+								<label for="name">Nom</label>
 								<input id="name" class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label>
-									Adresse email
-								</label>
+								<label for="email">Adresse email</label>
 								<input id="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label>
-									Comment nous avez-vous connu ?
-								</label>
-								<input class="form-control" type="email" required id="input_504" />
+								<label for="choix">Comment nous avez-vous connu ?</label>
+								<select id="choix">
+									<option value="">Merci de faire votre choix</option>
+									<option value="internet">Internet</option>
+									<option value="connaissance">Connaissance</option>
+									<option value="pub">Publicité</option>
+									<option value="autres">Autres</option>
+								</select>
 							</div>
 							<div class="form-group">
-								<label>
-									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50"
-									required></textarea>
+								<label for="message">Brief de votre projet</label>
+								<textarea id="message" class="form-control" rows="4" cols="50"
+									placeholder="(Ajoutez autant de détails que nécessaire)" required></textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 								type="submit">
@@ -146,22 +145,29 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="https://twitter.com/"
+										alt="logo du réseaux social twitter l'oiseau bleu"><span
+											class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="https://fr-fr.facebook.com/"
+										alt="logo  réseaux social facebook carrée avec la lettre F en blanc"><span
+											class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="https://dribbble.com/"
+										alt="logo réseaux social Dribble ballon de basket"><span
+											class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span
+									<a class="social" href="https://www.instagram.com/"
+										alt="logo du réseaux social instagram carrée avec un appareil photo dedans"><span
 											class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
