@@ -1,2 +1,3 @@
-# sachaory-4-180221
-Projet-4 La chouette agence
+Quatrième projet du parcours "Développeur web" chez OpenClassroom. L'objectif optimiser un site web existant.
+
+Optimisastion du Seo du site web de l'agence de la chouette Agence.
